@@ -79,7 +79,7 @@ The matrix shows the number of instances that were correctly or incorrectly clas
 
 This research paper aimed to develop a system for automatically classifying music genres using machine learning algorithms and audio attributes from a dataset of 8,000 recordings. Through experimentation with various machine learning algorithms, including decision trees, support vector machines, and deep learning models, along with clustering strategies like k-means and hierarchical clustering, the study sought to identify connections between different genres. The dataset used was the free music archive dataset, which provided a diverse range of musical content for analysis. By improving the accuracy of music genre classification, the proposed system has the potential to enhance user experience and deliver more objective genre classification results in music-related applications, such as playlist generators, recommendation systems, and music search engines. Overall, the research demonstrates promising results in accurately classifying musical genres and identifying similarities between them using machine learning algorithms, which can be further explored and optimized in future studies.
 
-REFERENCES
+# REFERENCES
 Van den Oord, Aaron, Sander Dieleman, and Benjamin Schrauwen. ”Deep content-based music recommendation.” Advances in neural information processing systems 26 (2013).
 
 Tzanetakis, G., Cook, P. (2002). A survey and experiments on music genre classification using audio features and machine learning algorithms. IEEE Transactions on Audio, Speech, and Language Processing
