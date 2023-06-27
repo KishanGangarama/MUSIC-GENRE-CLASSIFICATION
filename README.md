@@ -31,6 +31,22 @@ Along with the audio files, FMA also offers comprehensive metadata, including tr
 ## B. Machine Learning Algorithms
 In this study, we want to investigate several machine learning methods for categorizing music genres using audio attributes taken from the dataset. Convolutional neural networks, support vector machines, K-nearest neighbors, and clustering techniques are a few of the various algorithms we may take into account.
 
+CNNs are suited for assessing audio aspects in music because of their well-known capacity to learn hierarchical representations from input data with spatial correlations. They have demonstrated promise in audio analysis tasks and have been effectively applied to image recognition challenges. For genre categorization, we might use a CNN architecture with several convolutional and pooling layers, followed by fully connected layers. In order to improve the performance of the model, we can experiment with various kernel sizes, pooling techniques, and activation functions.
+
+Due to their capacity for managing high-dimensional data and ability to identify the best hyperplanes to divide classes, SVMs are a popular choice for classification problems. We can experiment with different parameters like regularization strength and kernel coefficients when using SVMs with various kernel functions, such as linear, polynomial, or radial basis function (RBF). In order to feed different feature representations into the SVMs for genre classification, we may also investigate spectrogram based features like Melfrequency cepstral coefficients (MFCCs). KNN is a straightforward and understandable technique for classification tasks that works by locating the k nearest neighbors in the feature space and assigning the query sample the majority class label. To improve the performance of the model, we can experiment with various k values and distance metrics, such as Euclidean distance or cosine similarity.
+
+These parameters can then be changed while the model is being trained. To find similarities between various genres and increase the precision of genre categorization, we may use unsupervised clustering approaches in addition to supervised machine learning algorithms. For instance, we may combine related files based on their audio attributes using methods like K-means or hierarchical clustering, and then use the resulting clusters as further information for classification.
+
+## C. Implementation Details
+We will employ a standardized procedure for evaluating the effectiveness of our machine learning models during implementation. With a standard ratio of 70-15-15, we will partition our dataset of 8,000 tracks into training, validation, and test sets. The validation set will be utilized for hyperparameter tuning and model selection, the training set for training the models, and the test set for assessing the final performance of the chosen model. 
+
+We will employ methods like cross-validation, grid search, or randomized search to fine-tune the hyper-parameters of our models. In cross-validation, the training set is divided into several folds, with one fold serving as a validation set while the remaining folds are used to train the model.
+
+We will also use regularization strategies like L1 or L2 regularization, early halting, and dropout to prevent over-fitting. These methods can aid in enhancing our models’ generalization abilities and stop them from memorizing training material. We also use feature engineering methods like feature scaling, feature selection, or feature augmentation to further enhance the performance of our models. Normalizing the input characteristics with feature scaling can help keep them from being too dominant during training. The dimensionality of the input features can be decreased and unnecessary or duplicate characteristics can be eliminated with the use of feature selection. In order to diversify the training data and strengthen the model’s capacity to generalize to new data, feature augmentation may involve the addition of synthetic data. 
+
+
+
+Based on a number of criteria, including accuracy, precision, recall, F1-score, and confusion matrix, we will assess the performance of our models. Using the test set to get a final estimate of performance, we will choose the model with the best performance based on how it performed on the validation set.
 
 
 
