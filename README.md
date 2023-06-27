@@ -60,7 +60,7 @@ It is worth mentioning that the Random Forest algorithm also performed well in t
 
 Based on these results, it can be concluded that SVM and Random Forest algorithms are potent and robust solutionsfor music genre classification, and therefore merit serious consideration for this application. Future research could investigate how these algorithms can be further optimized and applied to larger and more diverse datasets, leading to even better results in the classification of music genres. 
 
-In our study, we evaluated the performance of various clustering techniques on the dataset, and it was observed that the clustering achieved the best result when k was set to 5.
+In our study, we evaluated the performance of various clustering techniques on the dataset, and it was observed that the clustering achieved the best result when k was set to 5.
 
 ![2023-06-27 (3)](https://github.com/KishanGangarama/MUSIC-GENRE-CLASSIFICATION/assets/112736041/c5c32aea-9e3c-43bf-950e-c3eae8ba12d7)
 
