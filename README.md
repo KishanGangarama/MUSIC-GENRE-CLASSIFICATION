@@ -21,14 +21,14 @@ Tzanetakis and Cook’s   ”A   Survey   and   Experiments on Music Genre Class
 ![2023-06-27](https://github.com/KishanGangarama/MUSIC-GENRE-CLASSIFICATION/assets/112736041/c7e31ced-aa63-40e1-a587-00df66d66cb0)
 
 # III. OUR SOLUTION
-A. Description of Data set
+## A. Description of Data set
 The Data set that will be used in this project is the free music archive dataset. It contains a sizable, carefully curated library of audio files and related metadata. About 100,000 audio tracks from diverse genres and styles—including jazz, rock, electronic, and more—make up the FMA data set. To ensure a wide variety of musical content for study, the tracks are drawn from a variety of artists and labels. The data set contains audio files in both compressed and lossless forms, making it appropriate for various analysis.
 
 ![2023-06-27 (1)](https://github.com/KishanGangarama/MUSIC-GENRE-CLASSIFICATION/assets/112736041/52a53272-58dd-4605-83fe-c494f886e362)
 
 Along with the audio files, FMA also offers comprehensive metadata, including track details, artist information, genre tags, album art, and more. This metadata enables in-depth analysis and insights into music structure, genre classification, and other music-related tasks. It also enables academics to investigate and evaluate numerous musical qualities, such as tempo, key, mode, and instrumentation. Overall, the FMA dataset is extensive and diverse, offering a wealth of information for music analysis. This information enables researchers and analysts to investigate different facets of music, create music recommendation systems, and advance the field of music analysis through machine learning and data-driven research
 
-B. Machine Learning Algorithms
+## B. Machine Learning Algorithms
 In this study, we want to investigate several machine learning methods for categorizing music genres using audio attributes taken from the dataset. Convolutional neural networks, support vector machines, K-nearest neighbors, and clustering techniques are a few of the various algorithms we may take into account.
 
 
