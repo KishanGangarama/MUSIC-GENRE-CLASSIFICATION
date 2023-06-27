@@ -24,6 +24,9 @@ III. OUR SOLUTION
 A. Description of Data set
 The Data set that will be used in this project is the free music archive dataset. It contains a sizable, carefully curated library of audio files and related metadata. About 100,000 audio tracks from diverse genres and styles—including jazz, rock, electronic, and more—make up the FMA data set. To ensure a wide variety of musical content for study, the tracks are drawn from a variety of artists and labels. The data set contains audio files in both compressed and lossless forms, making it appropriate for various analysis.
 
+![2023-06-27 (1)](https://github.com/KishanGangarama/MUSIC-GENRE-CLASSIFICATION/assets/112736041/52a53272-58dd-4605-83fe-c494f886e362)
+
+
 
 
  
