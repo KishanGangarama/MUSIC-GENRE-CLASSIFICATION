@@ -75,7 +75,7 @@ Additionally, continuing to fine-tune the SVM model by exploring different metho
 ## VI. CONCLUSION
 The matrix shows the number of instances that were correctly or incorrectly classified. The confusion matrix is a useful for evaluating the performance of the classifiers.
 
-![2023-06-27 (4)](https://github.com/KishanGangarama/MUSIC-GENRE-CLASSIFICATION/assets/112736041/bd322e55-af5f-43c0-8d46-7fe0cd514a0f)
+![2023-06-27 (5)](https://github.com/KishanGangarama/MUSIC-GENRE-CLASSIFICATION/assets/112736041/1195eac3-518e-4d9f-a8a0-3da68a8dc68e)
 
 This research paper aimed to develop a system for automatically classifying music genres using machine learning algorithms and audio attributes from a dataset of 8,000 recordings. Through experimentation with various machine learning algorithms, including decision trees, support vector machines, and deep learning models, along with clustering strategies like k-means and hierarchical clustering, the study sought to identify connections between different genres. The dataset used was the free music archive dataset, which provided a diverse range of musical content for analysis. By improving the accuracy of music genre classification, the proposed system has the potential to enhance user experience and deliver more objective genre classification results in music-related applications, such as playlist generators, recommendation systems, and music search engines. Overall, the research demonstrates promising results in accurately classifying musical genres and identifying similarities between them using machine learning algorithms, which can be further explored and optimized in future studies.
 
