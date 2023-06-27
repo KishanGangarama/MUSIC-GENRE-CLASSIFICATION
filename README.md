@@ -44,7 +44,7 @@ We will employ methods like cross-validation, grid search, or randomized search 
 
 We will also use regularization strategies like L1 or L2 regularization, early halting, and dropout to prevent over-fitting. These methods can aid in enhancing our models’ generalization abilities and stop them from memorizing training material. We also use feature engineering methods like feature scaling, feature selection, or feature augmentation to further enhance the performance of our models. Normalizing the input characteristics with feature scaling can help keep them from being too dominant during training. The dimensionality of the input features can be decreased and unnecessary or duplicate characteristics can be eliminated with the use of feature selection. In order to diversify the training data and strengthen the model’s capacity to generalize to new data, feature augmentation may involve the addition of synthetic data. 
 
-
+![2023-06-27 (2)](https://github.com/KishanGangarama/MUSIC-GENRE-CLASSIFICATION/assets/112736041/8234b07b-05ad-433a-a8a5-37b449a4b71c)
 
 Based on a number of criteria, including accuracy, precision, recall, F1-score, and confusion matrix, we will assess the performance of our models. Using the test set to get a final estimate of performance, we will choose the model with the best performance based on how it performed on the validation set.
 
