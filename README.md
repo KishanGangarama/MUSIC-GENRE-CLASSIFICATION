@@ -62,8 +62,7 @@ Based on these results, it can be concluded that SVM and Random Forest algorithm
 
 In our study, we evaluated the performance of various clustering techniques on the dataset, and it was observed that the clustering achieved the best result when k was set to 5.
 
-
-
+![2023-06-27 (3)](https://github.com/KishanGangarama/MUSIC-GENRE-CLASSIFICATION/assets/112736041/c5c32aea-9e3c-43bf-950e-c3eae8ba12d7)
 
 ## B. Other solutions
 Although the support vector machine (SVM) algorithm demonstrated impressive results in classifying music genres, it is important to consider the possibility that other deep learning techniques could potentially outperform it. Deep learning approaches have the capability of capturing complex patterns and correlations within data, potentially leading to better classification accuracy. However, applying these methods in music genre classification requires careful consideration of the dataset used and the neural network architecture. It is well-known that deep learning models are prone to overfitting, especially when trained on small or unrepresentative datasets. Therefore, to effectively apply deep learning for music genre classification, obtaining a large and diverse dataset is crucial. Additionally, proper fine-tuning of the neural network architecture is essential to avoid overfitting and maximize the classification performance. Future research could explore the use of other deep learning architectures, such as convolutional neural networks (CNNs) or recurrent neural networks (RNNs), and examine their effectiveness in improving music genre classification accuracy. Furthermore, incorporating additional audio features such as tempo, rhythm, or melody could potentially enhance the performance of both SVM and deep learning-based classifiers.
@@ -76,7 +75,7 @@ Additionally, continuing to fine-tune the SVM model by exploring different metho
 ## VI. CONCLUSION
 The matrix shows the number of instances that were correctly or incorrectly classified. The confusion matrix is a useful for evaluating the performance of the classifiers.
 
-
+![2023-06-27 (4)](https://github.com/KishanGangarama/MUSIC-GENRE-CLASSIFICATION/assets/112736041/bd322e55-af5f-43c0-8d46-7fe0cd514a0f)
 
 This research paper aimed to develop a system for automatically classifying music genres using machine learning algorithms and audio attributes from a dataset of 8,000 recordings. Through experimentation with various machine learning algorithms, including decision trees, support vector machines, and deep learning models, along with clustering strategies like k-means and hierarchical clustering, the study sought to identify connections between different genres. The dataset used was the free music archive dataset, which provided a diverse range of musical content for analysis. By improving the accuracy of music genre classification, the proposed system has the potential to enhance user experience and deliver more objective genre classification results in music-related applications, such as playlist generators, recommendation systems, and music search engines. Overall, the research demonstrates promising results in accurately classifying musical genres and identifying similarities between them using machine learning algorithms, which can be further explored and optimized in future studies.
 
