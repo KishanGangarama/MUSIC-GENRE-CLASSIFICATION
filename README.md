@@ -17,7 +17,14 @@ Using machine learning algorithms, feature -based methods entail collecting audi
 Without the requirement for manually created features, deep learning techniques use deep neural networks to learn hierarchical representations of audio features from the original raw audio data. In deep learning-based techniques for genre categorization, convolutional neural networks (CNNs) and recurrent neural networks (RNNs) are frequently employed. In capturing complex genre patterns and obtaining high accuracy in genre classification tasks, deep learning techniques have demonstrated promising results. Yet, because deep neural networks are black boxes, they may demand a lot of data for training, be expensive computationally, and be difficult to understand.
 
 Tzanetakis and Cook’s   ”A   Survey   and   Experiments on Music Genre Classification using Audio Features and Machine Learning Algorithms” (2002), which explores various feature-based methods for music genre classification, and Oord et al”Deep content-based music recommendation” (2013), which suggests a deep learning-based method for music recommendation that incorporates genre classification, are two notable works in this field. Given the benefits and drawbacks of each approach, the development of the proposed system for automatic music genre classification in this project can be guided and inspired by these current solutions.
+
 ![2023-06-27](https://github.com/KishanGangarama/MUSIC-GENRE-CLASSIFICATION/assets/112736041/c7e31ced-aa63-40e1-a587-00df66d66cb0)
+
+III. OUR SOLUTION
+A. Description of Data set
+The Data set that will be used in this project is the free music archive dataset. It contains a sizable, carefully curated library of audio files and related metadata. About 100,000 audio tracks from diverse genres and styles—including jazz, rock, electronic, and more—make up the FMA data set. To ensure a wide variety of musical content for study, the tracks are drawn from a variety of artists and labels. The data set contains audio files in both compressed and lossless forms, making it appropriate for various analysis.
+
+
 
  
 
